@@ -1,0 +1,39 @@
+_id: req_56f5551c13934b778f1fb6e839b2a8a0
+type: Request
+parentId: fld_c67213a728c54d32980e933eb32148e4
+modified: 1660811257903
+created: 1660785785361
+url: https://localhost/api/music-groups/data/{% response 'body',
+  'req_8866d6b468e744ecb254e0e0f1201d68', 'b64::JFswXS5pZA==::46b', 'never', 60
+  %}
+name: api/music-groups/data/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"nomDuGroupe": "Groupe {% response 'body', 'req_8866d6b468e744ecb254e0e0f1201d68', 'b64::JFswXS5pZA==::46b', 'never', 60 %} mis à jour",
+    	"origine": "France",
+    	"ville": "paris",
+    	"anneeDebut": "1981",
+    	"anneeSeparation": null,
+    	"fondateurs": "Nicola Sirkis et Dominique Nicolas",
+    	"membres": 5,
+    	"courantMusical": "pop rock",
+    	"presentation": "Indochine est un groupe de pop rock français originaire de Paris, formé par Nicola Sirkis et Dominique Nicolas en 1981. Le groupe est issu du courant new wave"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60bd04a74d134aeb8fd12359b4af89f5
+authentication: {}
+metaSortKey: -1660706286737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

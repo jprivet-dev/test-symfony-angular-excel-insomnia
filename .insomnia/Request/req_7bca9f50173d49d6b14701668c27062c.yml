@@ -1,0 +1,23 @@
+_id: req_7bca9f50173d49d6b14701668c27062c
+type: Request
+parentId: fld_c67213a728c54d32980e933eb32148e4
+modified: 1660774378494
+created: 1660774281759
+url: https://localhost/api/music-groups/data/{% response 'body',
+  'req_8866d6b468e744ecb254e0e0f1201d68', 'b64::JFswXS5pZA==::46b', 'never', 60
+  %}
+name: api/music-groups/data/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660726843197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
