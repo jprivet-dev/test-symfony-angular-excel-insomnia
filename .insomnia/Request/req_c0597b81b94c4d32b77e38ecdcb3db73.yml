@@ -1,0 +1,33 @@
+_id: req_c0597b81b94c4d32b77e38ecdcb3db73
+type: Request
+parentId: fld_0c6e2c9d816c4271a63a1bd0e7b776bf
+modified: 1660722713762
+created: 1660692612623
+url: https://localhost/api/music-groups/upload
+name: api/music-groups/upload (XLSX) - WRONG FIELD
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a2e6ed5ef5f74f588cdca60d69340d11
+      name: xxx
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/jprivet/Repo/jprivet/test-symfony-angular-excel/data/test.xlsx
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_ed027fa31c8b4442a44af0530139881d
+authentication: {}
+metaSortKey: -1658993488930.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_1194fdb125894281a9c895126152bf2b
+type: Request
+parentId: fld_c67213a728c54d32980e933eb32148e4
+modified: 1660779565225
+created: 1660779538051
+url: https://localhost/api/music-groups/data
+name: api/music-groups/data - EMPTY
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomDuGroupe": "",
+    	"origine": "",
+    	"ville": "",
+    	"anneeDebut": "",
+    	"anneeSeparation": null,
+    	"fondateurs": "",
+    	"membres": "",
+    	"courantMusical": "",
+    	"presentation": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fe52f8421c54205a5ce2cb92a70e7b2
+authentication: {}
+metaSortKey: -1660737121427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
